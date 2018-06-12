@@ -42,3 +42,10 @@ a {
 .contact{
     font-family:arial;
 }
+#projectList a {
+    color:blue;
+}
+.projects {
+    font-size: 25px;
+    font-family: arial;
+}
