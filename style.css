@@ -1,14 +1,14 @@
 body{
-    background-color:#c8ffb5;
+    background-color:#347474;
 }
 .row{   
-    background-color:black;
-    color:white;
+    background-color: #35495e;
+    color:rgb(194, 223, 186);
     font-size:20px;
 }
 .top {
-    background-color:black;
-    color:white;
+    background-color:#35495e;
+    color:rgb(194, 223, 186);
     font-family: 'Krona One', sans-serif;
     font-size:50px;
 }
@@ -27,7 +27,7 @@ a {
     border:5px solid green;
 }
 .mid{
-    background-color:#bbf2b5;
+    background-color:#42b883;
     color:black;
     align-items:center;
     font-size:40px;
@@ -43,7 +43,7 @@ a {
     font-family:arial;
 }
 #projectList a {
-    color:blue;
+    color:#35495e;
 }
 .projects {
     font-size: 25px;
