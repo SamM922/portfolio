@@ -8,6 +8,14 @@ p {
 b {
     margin-left: 1%;
 }
+u {
+    margin-left: 1%;
+}
+h1 {
+    font-family: 'Krona One', sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
 .row {   
     background-color: #35495e;
     color: rgb(194, 223, 186);
@@ -27,7 +35,7 @@ b {
     font-size: 30px;
     text-align: center;
 }
-.header a {
+.row a {
     color: lightblue;
 }
 .mid {
@@ -66,6 +74,32 @@ a {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
+.imageTitle {
+    
+}
 #backButton {
     margin-left: 1%;
+}
+.display {
+    height: 300px;
+    border: 1px solid black;
+}
+.uiImage {
+    height: 350px;
+    border: 1px solid black;
+}
+#backTop {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    outline: none;
+    background-color: #35495e;
+    color: lightblue;
+    font-family: 'Righteous', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+#backTop:hover {
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.25), 0 20px 40px 0 rgba(0,0,0,0.15);
 }
