@@ -88,6 +88,12 @@ a {
     height: 350px;
     border: 1px solid black;
 }
+.cardImage {
+    height: 400px;
+}
+.cardMargin {
+    margin-left: 15px;
+}
 #backTop {
     position: fixed;
     right: 30px;
