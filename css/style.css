@@ -7,6 +7,10 @@ p {
 }
 li {
     margin-right: 1%;
+    margin-bottom: 8px;
+}
+.litop {
+    margin-top: 8px;
 }
 u {
     margin-left: 1%;
@@ -86,9 +90,9 @@ a {
     font-size: 25px;
     font-family: 'Lato', sans-serif;
 }
-.imageTitle {
+/* .imageTitle {
     
-}
+} */
 #backButton {
     margin-left: 1%;
 }
@@ -120,4 +124,32 @@ a {
 }
 #backTop:hover {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.25), 0 20px 40px 0 rgba(0,0,0,0.15);
+}
+/* Collapsible Boxes */
+.collapsible {
+    background-color: #347474;
+    color: lightblue;
+    cursor: pointer;
+    padding: 12px;
+    width: 99%;
+    margin-top: 7px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+}
+.collapsibleActive, .collapsible:hover {
+    background-color: rgb(194, 223, 186);
+    color: black;
+}
+.content {
+    padding-top: 0 40px;
+    padding-bottom: 0 40px;
+    width: 99%;
+    background-color: lightblue;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-size: 25px;
 }
